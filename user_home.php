@@ -607,7 +607,7 @@ I Will Do Viral Youtube Seo Social Media Promotion
 
 <?php
 	//put endpoint in env file not code
-	$url = "http://104.197.141.62/api/collections/projects";
+	$url = "http://104.197.141.62/api/collections/requests";
 	
 	$client = curl_init($url);
 	curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
@@ -615,96 +615,98 @@ I Will Do Viral Youtube Seo Social Media Promotion
 
 	$result = json_decode($response);
 	//use $result->[json attribute name to get data]
+	$y = 0;
 
 	for ($x = 0; $x < count($result->data); $x++) {
 		//isset is used to check for nulls
-		if (isset($result->data[$x]->service_title)) {
-		"<tr id="."\"request_tr_\"".$x.">";
+		if (isset($result->data[$x]->request_title)) {
+			$y++;
+			echo "<tr id=\"request_tr_".$y."\">";
 
-		echo "<td>";
-		echo "<img src=\"user_images/brock.jpg\" class=\"request-img rounded-circle\">";
-		echo "<div class=\"request-description\">";
-		
-		
-			//echo "service_title: " . $result->data[$x]->service_title . "<br>";
-			echo "<h6>" . $result->data[$x]->service_title . "</h6>";
+			echo "<td>";
+			echo "<img src=\"user_images/brock.jpg\" class=\"request-img rounded-circle\">";
+			echo "<div class=\"request-description\">";
 			
+			
+				//echo "service_title: " . $result->data[$x]->service_title . "<br>";
+				echo "<h6>" . $result->data[$x]->request_title . "</h6>";
+				
+			
+			echo "<h6 style=\"color: #ffae42;\"><b>" . $result->data[$x]->request_category . "</b></h6>";
+			echo "<p class=\"lead\">" . $result->data[$x]->request_description . "</p>";
+
+			echo "</div><!--- request-description Ends --->";
+
+			echo "</td>";
+
+			echo "<td>" . $result->data[$x]->request_offers . "</td>";
+
+			echo "<td>" . $result->data[$x]->reguest_duration . " </td>";
+
+			echo "<td class=\"text-success\">";
+
+			echo  $result->data[$x]->reguest_budget;
+
+			echo "<br>";
+
+			echo "<button class=\"btn btn-success btn-sm mt-4 send_button_".$y."\">";
+
+			echo "Send Offer";
+
+			echo "</button>";
+
+			echo "</td>";
+			/*
+			if (isset($result->data[$x]->project_service_id)) {
+				echo "project_service_id: " . $result->data[$x]->project_service_id . "<br>";
+			}
+			if (isset($result->data[$x]->status)) {
+				echo "status: " . $result->data[$x]->status . "<br>";
+			}
+			
+			if (isset($result->data[$x]->project_description)) {
+				echo "project_description: " . $result->data[$x]->project_description . "<br>";
+			}*/
 		
-		echo "<h6 style=\"color: #ffae42;\"><b> Script Writing  </b></h6>";
-		echo "<p class=\"lead\"> I Need A Programmer To Write Me A Script. </p>";
+			echo "<script>
 
-		echo "</div><!--- request-description Ends --->";
+			$(\".send_button_".$y."\").css(\"visibility\",\"hidden\");
 
-		echo "</td>";
+			$(document).on(\"mouseenter\", \"#request_tr_".$y."\", function(){
+				
+				$(\".send_button_".$y."\").css(\"visibility\",\"visible\");
+				
+			});
 
-		echo "<td>2</td>";
+			$(document).on(\"mouseleave\", \"#request_tr_".$y."\", function(){
+				
+				$(\".send_button_".$y."\").css(\"visibility\",\"hidden\");
+				
+			});
 
-		echo "<td>7 Days</td>";
+			$(\".send_button_".$y."\").click(function(){
+				
+			request_id = \"\";
+				
+			$.ajax({
+				
+			method: \"POST\",
+			url: \"requests/send_offer_modal.php\",
+			data: {request_id: request_id}
+			})
+			.done(function(data){
+				
+			$(\".append-modal\").html(data);
+				
+			});
+				
+			});
 
-		echo "<td class=\"text-success\">";
 
-		echo "$200";
+			</script>
 
-		echo "<br>";
-
-		echo "<button class=\"btn btn-success btn-sm mt-4 send_button_".$x."\">";
-
-		echo "Send Offer";
-
-		echo "</button>";
-
-		echo "</td>";
-		/*
-		if (isset($result->data[$x]->project_service_id)) {
-			echo "project_service_id: " . $result->data[$x]->project_service_id . "<br>";
+			</tr><!--- request_tr_1 id Ends --->";
 		}
-		if (isset($result->data[$x]->status)) {
-			echo "status: " . $result->data[$x]->status . "<br>";
-		}
-		
-		if (isset($result->data[$x]->project_description)) {
-			echo "project_description: " . $result->data[$x]->project_description . "<br>";
-		}*/
-	
-		echo "<script>
-
-		$(\".send_button_".$x."\").css(\"visibility\",\"hidden\");
-
-		$(document).on(\"mouseenter\", \"#request_tr_".$x."\", function(){
-			
-			$(\".send_button_".$x."\").css(\"visibility\",\"visible\");
-			
-		});
-
-		$(document).on(\"mouseleave\", \"#request_tr_".$x."\", function(){
-			
-			$(\".send_button_".$x."\").css(\"visibility\",\"hidden\");
-			
-		});
-
-		$(\".send_button_".$x."\").click(function(){
-			
-		request_id = \"\";
-			
-		$.ajax({
-			
-		method: \"POST\",
-		url: \"requests/send_offer_modal.php\",
-		data: {request_id: request_id}
-		})
-		.done(function(data){
-			
-		$(\".append-modal\").html(data);
-			
-		});
-			
-		});
-
-
-		</script>
-
-		</tr><!--- request_tr_1 id Ends --->";
-	}
 		
 	}
 ?>
