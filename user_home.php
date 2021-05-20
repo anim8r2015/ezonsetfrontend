@@ -605,215 +605,111 @@ I Will Do Viral Youtube Seo Social Media Promotion
 
 <tbody><!--- tbody Starts --->
 
-<tr id="request_tr_1"><!--- request_tr_1 id Starts --->
-
-<td>
-
-<img src="user_images/brock.jpg" class="request-img rounded-circle">
-
-<div class="request-description"><!--- request-description Starts --->
-
-<h6>Adam B.</h6>
-
-<h6 style="color: #ffae42;"><b> Script Writing  </b></h6>
-
-<p class="lead"> I Need A Programmer To Write Me A Script. </p>
-
-</div><!--- request-description Ends --->
-
-</td>
-
-<td>2</td>
-
-<td>7 Days</td>
-
-<td class="text-success">
-
-$200
-
-<br>
-
-<button class="btn btn-success btn-sm mt-4 send_button_1">
-
-Send Offer
-
-</button>
-
-</td>
-
-<script>
-
-$(".send_button_1").css("visibility","hidden");
-
-$(document).on("mouseenter", "#request_tr_1", function(){
+<?php
+	//put endpoint in env file not code
+	$url = "http://104.197.141.62/api/collections/projects";
 	
-	$(".send_button_1").css("visibility","visible");
+	$client = curl_init($url);
+	curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
+	$response = curl_exec($client);
+
+	$result = json_decode($response);
+	//use $result->[json attribute name to get data]
+
+	for ($x = 0; $x < count($result->data); $x++) {
+		//isset is used to check for nulls
+		if (isset($result->data[$x]->service_title)) {
+		"<tr id="."\"request_tr_\"".$x.">";
+
+		echo "<td>";
+		echo "<img src=\"user_images/brock.jpg\" class=\"request-img rounded-circle\">";
+		echo "<div class=\"request-description\">";
+		
+		
+			//echo "service_title: " . $result->data[$x]->service_title . "<br>";
+			echo "<h6>" . $result->data[$x]->service_title . "</h6>";
+			
+		
+		echo "<h6 style=\"color: #ffae42;\"><b> Script Writing  </b></h6>";
+		echo "<p class=\"lead\"> I Need A Programmer To Write Me A Script. </p>";
+
+		echo "</div><!--- request-description Ends --->";
+
+		echo "</td>";
+
+		echo "<td>2</td>";
+
+		echo "<td>7 Days</td>";
+
+		echo "<td class=\"text-success\">";
+
+		echo "$200";
+
+		echo "<br>";
+
+		echo "<button class=\"btn btn-success btn-sm mt-4 send_button_".$x."\">";
+
+		echo "Send Offer";
+
+		echo "</button>";
+
+		echo "</td>";
+		/*
+		if (isset($result->data[$x]->project_service_id)) {
+			echo "project_service_id: " . $result->data[$x]->project_service_id . "<br>";
+		}
+		if (isset($result->data[$x]->status)) {
+			echo "status: " . $result->data[$x]->status . "<br>";
+		}
+		
+		if (isset($result->data[$x]->project_description)) {
+			echo "project_description: " . $result->data[$x]->project_description . "<br>";
+		}*/
 	
-});
+		echo "<script>
 
-$(document).on("mouseleave", "#request_tr_1", function(){
-	
-	$(".send_button_1").css("visibility","hidden");
-	
-});
+		$(\".send_button_".$x."\").css(\"visibility\",\"hidden\");
 
-$(".send_button_1").click(function(){
-	
-request_id = "";
-	
-$.ajax({
-	
-method: "POST",
-url: "requests/send_offer_modal.php",
-data: {request_id: request_id}
-})
-.done(function(data){
-	
-$(".append-modal").html(data);
-	
-});
-	
-});
+		$(document).on(\"mouseenter\", \"#request_tr_".$x."\", function(){
+			
+			$(\".send_button_".$x."\").css(\"visibility\",\"visible\");
+			
+		});
 
+		$(document).on(\"mouseleave\", \"#request_tr_".$x."\", function(){
+			
+			$(\".send_button_".$x."\").css(\"visibility\",\"hidden\");
+			
+		});
 
-</script>
-
-</tr><!--- request_tr_1 id Ends --->
-
-
-<tr id="request_tr_2"><!--- request_tr_2 id Starts --->
-
-<td>
-
-<img src="user_images/brock.jpg" class="request-img rounded-circle">
-
-<div class="request-description"><!--- request-description Starts --->
-
-<h6>Adam B.</h6>
-
-<h6 style="color: #ffae42;"><b> Script Writing  </b></h6>
-
-<p class="lead"> I Need A Programmer To Write Me A Script. </p>
-
-</div><!--- request-description Ends --->
-
-</td>
-
-<td>2</td>
-
-<td>7 Days</td>
-
-<td class="text-success">
-
-$200
-
-<br>
-
-<button class="btn btn-success btn-sm mt-4 send_button_2">
-
-Send Offer
-
-</button>
-
-</td>
-
-<script>
-
-$(".send_button_2").css("visibility","hidden");
-
-$(document).on("mouseenter", "#request_tr_2", function(){
-	
-	$(".send_button_2").css("visibility","visible");
-	
-});
-
-$(document).on("mouseleave", "#request_tr_2", function(){
-	
-	$(".send_button_2").css("visibility","hidden");
-	
-});
+		$(\".send_button_".$x."\").click(function(){
+			
+		request_id = \"\";
+			
+		$.ajax({
+			
+		method: \"POST\",
+		url: \"requests/send_offer_modal.php\",
+		data: {request_id: request_id}
+		})
+		.done(function(data){
+			
+		$(\".append-modal\").html(data);
+			
+		});
+			
+		});
 
 
-$(".send_button_2").click(function(){
-	
-request_id = "";
-	
-$.ajax({
-	
-method: "POST",
-url: "requests/send_offer_modal.php",
-data: {request_id: request_id}
-})
-.done(function(data){
-	
-$(".append-modal").html(data);
-	
-});
-	
-});
+		</script>
+
+		</tr><!--- request_tr_1 id Ends --->";
+	}
+		
+	}
+?>
 
 
-</script>
-
-</tr><!--- request_tr_2 id Ends --->
-
-
-<tr id="request_tr_3"><!--- request_tr_3 id Starts --->
-
-<td>
-
-<img src="user_images/brock.jpg" class="request-img rounded-circle">
-
-<div class="request-description"><!--- request-description Starts --->
-
-<h6>Adam B.</h6>
-
-<h6 style="color: #ffae42;"><b> Script Writing  </b></h6>
-
-<p class="lead"> I Need A Programmer To Write Me A Script. </p>
-
-</div><!--- request-description Ends --->
-
-</td>
-
-<td>2</td>
-
-<td>7 Days</td>
-
-<td class="text-success">
-
-$200
-
-<br>
-
-<button class="btn btn-success btn-sm mt-4 send_button_3" data-toggle="modal" data-target="#quota-finish">
-
-Send Offer
-
-</button>
-
-</td>
-
-<script>
-
-$(".send_button_3").css("visibility","hidden");
-
-$(document).on("mouseenter", "#request_tr_3", function(){
-	
-	$(".send_button_3").css("visibility","visible");
-	
-});
-
-$(document).on("mouseleave", "#request_tr_3", function(){
-	
-	$(".send_button_3").css("visibility","hidden");
-	
-});
-
-
-</script>
-
-</tr><!--- request_tr_3 id Ends --->
 
 
 </tbody><!--- tbody Ends --->
