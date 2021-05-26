@@ -280,7 +280,7 @@ Cart <span class="badge badge-pill badge-success"> 7 </span>
     if(isset($usernameCurr)){
         echo $usernameCurr;
     } else {
-        echo "fixmywebsite...xxxx";
+        echo "Guest";
     }
 ?> <span class="badge badge-success"> $172 </span>
 

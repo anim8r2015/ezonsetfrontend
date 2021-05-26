@@ -44,4 +44,6 @@ if(isset($username) && isset($password)){
     $data2 = json_encode(array($error=>"Please enter the correct user name or password."));
 }
 
+echo $_SERVER['DOCUMENT_ROOT'];
+
 //close connection
