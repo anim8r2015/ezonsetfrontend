@@ -14,7 +14,7 @@
 
 <p> Request the service you are looking for. </p>
 
-<a class="btn btn-success btn-block" href="requests/post_request.php" target="blank">
+<a class="btn btn-success btn-block" href="requests/post_request.php">
 
 Post A Request
 

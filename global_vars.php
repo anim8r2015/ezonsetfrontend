@@ -1,6 +1,6 @@
 <?php
     
         $usernameCurr = $_SESSION['username'];
-        $passwordCurr = $_SESSION['password'];
+       // $passwordCurr = $_SESSION['password'];
  
 ?>

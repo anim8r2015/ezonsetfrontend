@@ -1,7 +1,8 @@
 
 <?php 
+    require_once 'global_vars.php'; 
     include("seller_levels.php");
-    require_once "global_vars.php"; 
+    
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-login fixed-top"><!-- navbar navbar-expand-lg navbar-dark bg-dark fixed-top Starts -->
