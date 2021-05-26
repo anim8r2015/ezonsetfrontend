@@ -1,9 +1,16 @@
-
+<?php require_once 'global_vars.php'?>
 <div class="card rounded-0 mb-3"><!--- card rounded-0 mb-3 Starts --->
 
 <div class="card-body"><!-- card-body Starts -->
 
-<h3> Hi, fixmywebsite </h3>
+<h3> Hi, 
+<?php 
+    if($usernameCurr!=null){
+            echo $usernameCurr;
+    } else {
+        echo 'Guest';
+    }
+?> </h3>
 
 <p> Request the service you are looking for. </p>
 

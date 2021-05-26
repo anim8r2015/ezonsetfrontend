@@ -1,5 +1,6 @@
 
-<?php include("includes/user_header.php"); ?>
+<?php include("includes/user_header.php");
+ require_once "global_vars.php"?>
 
 <div id="myCarousel" class="carousel slide"><!--- carousel slide Starts --->
 
@@ -149,7 +150,7 @@ Clients browse your profile when deciding who to work with on a project, <br>So 
 
 <div class="col-md-12"><!--- col-md-12 Starts --->
 
-<h2> Featuerd Proposals </h2>
+<h2> Featured Proposals </h2>
 
 </div><!--- col-md-12 Ends --->
 
@@ -172,6 +173,28 @@ Clients browse your profile when deciding who to work with on a project, <br>So 
 </span><!--- float-left mt-2 Ends --->
 
 <span class="float-right mt-2"><!--- float-right mt-2 Starts --->
+
+<?php
+	$bool = true;
+	//put endpoint in env file not code
+	$url = "http://104.197.141.62/api/collections/services";
+	
+	$client = curl_init($url);
+	curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
+	$response = curl_exec($client);
+
+	$result = json_decode($response);
+	//use $result->[json attribute name to get data]
+	$y = 0;
+
+	for ($x = 0; $x < count($result->data); $x++) {
+		//isset is used to check for nulls
+		if (isset($result->data[$x]->request_title)) {
+			$y++;
+			echo "<img class=\"rating\" src=\"images/user_rate_full.png\">";
+		}
+	}
+?>
 
 <img class="rating" src="images/user_rate_full.png">
 
@@ -626,12 +649,9 @@ I Will Do Viral Youtube Seo Social Media Promotion
 			echo "<td>";
 			echo "<img src=\"user_images/brock.jpg\" class=\"request-img rounded-circle\">";
 			echo "<div class=\"request-description\">";
-			
-			
-				//echo "service_title: " . $result->data[$x]->service_title . "<br>";
-				echo "<h6>" . $result->data[$x]->request_title . "</h6>";
 				
-			
+			//echo "service_title: " . $result->data[$x]->service_title . "<br>";
+			echo "<h6>" . $result->data[$x]->request_title . "</h6>";
 			echo "<h6 style=\"color: #ffae42;\"><b>" . $result->data[$x]->request_category . "</b></h6>";
 			echo "<p class=\"lead\">" . $result->data[$x]->request_description . "</p>";
 
@@ -656,32 +676,14 @@ I Will Do Viral Youtube Seo Social Media Promotion
 			echo "</button>";
 
 			echo "</td>";
-			/*
-			if (isset($result->data[$x]->project_service_id)) {
-				echo "project_service_id: " . $result->data[$x]->project_service_id . "<br>";
-			}
-			if (isset($result->data[$x]->status)) {
-				echo "status: " . $result->data[$x]->status . "<br>";
-			}
-			
-			if (isset($result->data[$x]->project_description)) {
-				echo "project_description: " . $result->data[$x]->project_description . "<br>";
-			}*/
-		
+				
 			echo "<script>
-
 			$(\".send_button_".$y."\").css(\"visibility\",\"hidden\");
-
 			$(document).on(\"mouseenter\", \"#request_tr_".$y."\", function(){
-				
 				$(\".send_button_".$y."\").css(\"visibility\",\"visible\");
-				
 			});
-
 			$(document).on(\"mouseleave\", \"#request_tr_".$y."\", function(){
-				
 				$(\".send_button_".$y."\").css(\"visibility\",\"hidden\");
-				
 			});
 
 			$(\".send_button_".$y."\").click(function(){

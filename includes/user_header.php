@@ -1,5 +1,8 @@
 
-<?php include("seller_levels.php");?>
+<?php 
+    include("seller_levels.php");
+    require_once "global_vars.php"; 
+?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-login fixed-top"><!-- navbar navbar-expand-lg navbar-dark bg-dark fixed-top Starts -->
 
@@ -272,7 +275,13 @@ Cart <span class="badge badge-pill badge-success"> 7 </span>
 
 <img src="http://localhost/freelance/user_images/fixmywebsite.jpg" width="27" height="27" class="rounded-circle">
 
-fixmywebsite <span class="badge badge-success"> $172 </span>
+<?php  
+    if(isset($usernameCurr)){
+        echo $usernameCurr;
+    } else {
+        echo "fixmywebsite...xxxx";
+    }
+?> <span class="badge badge-success"> $172 </span>
 
 </button>
 

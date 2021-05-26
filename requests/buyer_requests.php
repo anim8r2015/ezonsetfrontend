@@ -330,8 +330,6 @@ $(".remove_request_2").click(function(event){
 
 </div><!-- active-requests tab-pane fade show active Ends -->
 
-
-
 <div id="sent-offers" class="tab-pane fade"><!-- sent-offers tab-pane fade Starts -->
 
 <div class="table-responsive box-table"><!-- table-responsive box-table Starts -->

@@ -26,7 +26,10 @@
 
 <body>
 
-<?php include("../includes/user_header.php"); ?>
+<?php 
+require_once "../global_vars.php";
+include("../includes/user_header.php"); 
+?>
 
 <div class="container-fluid mt-5 mb-5"><!-- container-fluid mt-5 mb-5 Starts -->
 

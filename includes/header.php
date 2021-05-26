@@ -230,7 +230,7 @@ Sign Up
 	
     jQuery(function($) {
     $('#loginBtn').on('click', function() {
-        var $form = $('#formRegistration');
+        var $form = $('#formLogin');
         //var $target = $($form.attr('data-target'));
 
         $.ajax({
@@ -241,6 +241,10 @@ Sign Up
             success: function(data, status) {
                 //$target.html(data);
                 console.log(data);
+                console.log("We logged in!");
+
+                window.location = "home.php";
+               
               
                 }       
             });

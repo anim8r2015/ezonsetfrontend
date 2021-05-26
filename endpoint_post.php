@@ -1,38 +1,47 @@
 <?php
+require('global_vars.php');
 
-//$url = "http://104.197.141.62/api/collections/create";
 //should be in an environment variable
-$url = "http://104.197.141.62/api/collections/update";
+
 
 $username = $_POST['seller_user_name'];
 $password = $_POST['seller_pass'];
 
-$data2 = json_encode(array($username, $password));
 
-$fields = array(
-    'collectionName' => 'foo',
-    'documentName' => 'bar',
-	'collectionData' => array(
-            'bidId' => 'bid5',
-            'bidby' =>' Anthony',
-            'bidPrice' => '150.00',
-            'bidItemId' => 'Web Desgin'
-        )
-	);
+if(isset($username) && isset($password)){
+    $data2 = json_encode(array($username, $password));
 
-$curl = curl_init();
- 
-$json_string = json_encode($fields);
- 
-curl_setopt($curl, CURLOPT_URL, $url);
-curl_setopt($curl, CURLOPT_POST, TRUE);
-curl_setopt($curl, CURLOPT_POSTFIELDS, $json_string);
-curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
- 
-$data = curl_exec($curl);
- 
-curl_close($curl);
+    $url = "http://104.197.141.62/api/collections/users/username/".$username;
+	
+	$client = curl_init($url);
+	curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
+	$response = curl_exec($client);
 
-echo $data2;
+	$result = json_decode($response);
+	
+
+    echo $result->success . " data count is " . count($result->data);
+
+    if ($result->success == 1 && count($result->data) > 0){
+        
+        $_SESSION["username"] = $username;
+        $_SESSION["password"] = $password;
+
+        header('Location:home.php');
+        for ($x = 0; $x < count($result->data); $x++) {
+            //isset is used to check for nulls
+           
+            /*
+            if (isset($result->data[$x]->service_title)) {
+                echo "service_title: " . $result->data[$x]->service_title . "<br>";
+            }*/
+        }
+    } else {
+        header('Location:index.php');
+    }
+
+} else {
+    $data2 = json_encode(array($error=>"Please enter the correct user name or password."));
+}
+
 //close connection

@@ -3,7 +3,6 @@
 	//php playground
 	$url = "http://104.197.141.62/api/collections/projects";
 	
-
 	$client = curl_init($url);
 	curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
 	$response = curl_exec($client);
