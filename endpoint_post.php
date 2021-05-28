@@ -1,16 +1,13 @@
 <?php
 require('global_vars.php');
 
-//should be in an environment variable
-
-
 $username = $_POST['seller_user_name'];
 $password = $_POST['seller_pass'];
 
 
 if(isset($username) && isset($password)){
     $data2 = json_encode(array($username, $password));
-
+    //should be in an environment variable
     $url = "http://104.197.141.62/api/collections/users/username/".$username;
 	
 	$client = curl_init($url);
@@ -44,6 +41,6 @@ if(isset($username) && isset($password)){
     $data2 = json_encode(array($error=>"Please enter the correct user name or password."));
 }
 
-echo $_SERVER['DOCUMENT_ROOT'];
+//echo $_SERVER['DOCUMENT_ROOT'];
 
 //close connection

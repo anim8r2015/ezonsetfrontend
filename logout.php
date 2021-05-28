@@ -3,9 +3,12 @@
 unset($_SESSION["id"]);
 unset($_SESSION["name"]);
 
-//session_unset();
+unset($_SESSION["username"]);
+unset($_SESSION["password"]);
+session_unset();
 // destroy the session
 //session_destroy();
+session_destroy();
 header("Location:index.php");
-session_destroy()
+
 ?>

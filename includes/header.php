@@ -48,7 +48,7 @@
 
 <li class="nav-item active">
 
-<a href="http://localhost/freelance/home.php" class="nav-link"> Home </a>
+<a href="home.php" class="nav-link"> Home </a>
 
 </li>
 

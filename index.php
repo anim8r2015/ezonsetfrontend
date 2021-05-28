@@ -32,9 +32,7 @@
 
 </head>
 <body>
-
 	<?php include("includes/header.php"); ?>
-
 </body>
 <header class="home-header"><!-- home-header Starts -->
 
@@ -364,7 +362,7 @@ By
 
 </strong>
 
-<a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<a href="user.php"> fixmywebsite </a>
 
 </span>
 
@@ -449,7 +447,7 @@ By
 
 </strong>
 
-<a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<a href="user.php"> fixmywebsite </a>
 
 </span>
 

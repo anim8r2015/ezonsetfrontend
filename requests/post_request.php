@@ -27,7 +27,7 @@
 <body>
 
 <?php 
-require_once "..\global_vars.php";
+require_once "../global_vars.php";
 include("../includes/user_header.php"); 
 ?>
 

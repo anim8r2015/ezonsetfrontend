@@ -15,9 +15,9 @@
 
 </button>
 
-<a class="navbar-brand" href="http://localhost/freelance/index.php"> EzOnset</a>
+<a class="navbar-brand" href="index.php"> EzOnset</a>
 
-<a class="navbar-toggler" href="http://localhost/freelance/mobile_categories.php">
+<a class="navbar-toggler" href="mobile_categories.php">
 
 <i class="fa fa-th-large"></i>
 
@@ -56,7 +56,7 @@
 
 <li class="nav-item"><!-- nav-item Starts  -->
 
-<a class="nav-link" href="http://localhost/freelance/dashboard.php" title="Dashboard">
+<a class="nav-link" href="dashboard.php" title="Dashboard">
 
 <i class="fa fa-lg fa-dashboard"></i>
 
@@ -95,15 +95,15 @@ Notifications <span class="badge badge-pill badge-danger"> 1 New </span>
 
 Notifications (1)
 
-<a class="float-right" href="http://localhost/freelance/dashboard.php"> View Dashboard </a>
+<a class="float-right" href="dashboard.php"> View Dashboard </a>
 
 </h3><!--- dropdown-header Ends --->
 
 <div class="header-message-div-unread"><!--- header-message-div-unread Starts --->
 
-<a href="http://localhost/freelance/dashboard.php?n_id">
+<a href="dashboard.php?n_id">
 
-<img src="http://localhost/freelance/user_images/salman.jpg" width="50" height="50" class="rounded-circle">
+<img src="user_images/salman.jpg" width="50" height="50" class="rounded-circle">
 
 <strong class="heading"> Aamir D. </strong>
 
@@ -117,9 +117,9 @@ Notifications (1)
 
 <div class="header-message-div"><!--- header-message-div Starts --->
 
-<a href="http://localhost/freelance/dashboard.php?n_id">
+<a href="dashboard.php?n_id">
 
-<img src="http://localhost/freelance/user_images/salman.jpg" width="50" height="50" class="rounded-circle">
+<img src="user_images/salman.jpg" width="50" height="50" class="rounded-circle">
 
 <strong class="heading"> Aamir D. </strong>
 
@@ -164,7 +164,7 @@ Messages <span class="badge badge-pill badge-danger"> 1 New </span>
 
 Inbox (1)
 
-<a class="float-right" href="http://localhost/freelance/conversations/inbox.php">
+<a class="float-right" href="conversations/inbox.php">
 
 View Inbox
 
@@ -174,9 +174,9 @@ View Inbox
 
 <div class="header-message-div-unread"><!--- header-message-div-unread Starts -->
 
-<a href="http://freelance/conversations/insert_message.php?single_message_id">
+<a href="conversations/insert_message.php?single_message_id">
 
-<img src="http://localhost/freelance/user_images/brock.jpg" width="50" height="50" class="rounded-circle">
+<img src="user_images/brock.jpg" width="50" height="50" class="rounded-circle">
 
 <strong class="heading"> Adam B. </strong>
 
@@ -191,9 +191,9 @@ View Inbox
 
 <div class="header-message-div"><!--- header-message-div Starts -->
 
-<a href="http://freelance/conversations/insert_message.php?single_message_id">
+<a href="conversations/insert_message.php?single_message_id">
 
-<img src="http://localhost/freelance/user_images/brock.jpg" width="50" height="50" class="rounded-circle">
+<img src="user_images/brock.jpg" width="50" height="50" class="rounded-circle">
 
 <strong class="heading"> Adam B. </strong>
 
@@ -207,7 +207,7 @@ View Inbox
 
 <div class="m-2">
 
-<a href="http://localhost/freelance/conversations/inbox.php" class="btn btn-primary btn-block">
+<a href="conversations/inbox.php" class="btn btn-primary btn-block">
  See All
 </a>
 
@@ -220,7 +220,7 @@ View Inbox
 
 <li class="nav-item dropdown"><!--- nav-item dropdown Starts -->
 
-<a class="nav-link mr-lg-2" href="http://localhost/freelance/favourites.php" title="Favourites">
+<a class="nav-link mr-lg-2" href="favourites.php" title="Favourites">
 
 <i class="fa fa-fw fa-lg fa-heart"></i>
 
@@ -245,7 +245,7 @@ Favourites <span class="badge badge-pill badge-success"> 4 </span>
 
 <li class="nav-item dropdown"><!--- nav-item dropdown Starts -->
 
-<a class="nav-link mr-lg-2" href="http://localhost/freelance/cart.php" title="Cart">
+<a class="nav-link mr-lg-2" href="cart.php" title="Cart">
 
 <i class="fa fa-fw fa-lg fa-shopping-cart"></i>
 
@@ -274,7 +274,7 @@ Cart <span class="badge badge-pill badge-success"> 7 </span>
 
 <button class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown">
 
-<img src="http://localhost/freelance/user_images/fixmywebsite.jpg" width="27" height="27" class="rounded-circle">
+<img src="user_images/fixmywebsite.jpg" width="27" height="27" class="rounded-circle">
 
 <?php  
     if(isset($usernameCurr)){
@@ -288,7 +288,7 @@ Cart <span class="badge badge-pill badge-success"> 7 </span>
 
 <div class="dropdown-menu"><!-- dropdown-menu Starts -->
 
-<a class="dropdown-item" href="http://localhost/freelance/dashboard.php">
+<a class="dropdown-item" href="dashboard.php">
 
 Dashboard
 
@@ -302,25 +302,25 @@ Selling
 
 <div id="selling" class="dropdown-submenu collapse"><!--- selling dropdown-submenu collapse Starts -->
 
-<a class="dropdown-item" href="http://localhost/freelance/selling_orders.php">
+<a class="dropdown-item" href="selling_orders.php">
 
 Orders
 
 </a>
 
-<a class="dropdown-item" href="http://localhost/freelance/proposals/view_proposals.php">
+<a class="dropdown-item" href="proposals/view_proposals.php">
 
 View Proposals
 
 </a>
 
-<a class="dropdown-item" href="http://localhost/freelance/requests/buyer_requests.php">
+<a class="dropdown-item" href="requests/buyer_requests.php">
 
 Buyer Requests
 
 </a>
 
-<a class="dropdown-item" href="http://localhost/freelance/revenue.php">
+<a class="dropdown-item" href="revenue.php">
 
 Revenues
 
@@ -336,19 +336,19 @@ Buying
 
 <div id="buying" class="dropdown-submenu collapse"><!-- buying dropdown-submenu collapse Starts -->
 
-<a class="dropdown-item" href="http://localhost/freelance/buying_orders.php">
+<a class="dropdown-item" href="buying_orders.php">
 
 Orders
 
 </a>
 
-<a class="dropdown-item" href="http://localhost/freelance/purchases.php">
+<a class="dropdown-item" href="purchases.php">
 
 Payments
 
 </a>
 
-<a class="dropdown-item" href="http://localhost/freelance/favourites.php">
+<a class="dropdown-item" href="favourites.php">
 
 Favourites
 
@@ -364,13 +364,13 @@ Requests
 
 <div id="requests" class="dropdown-submenu collapse"><!-- requests dropdown-submenu collapse Starts -->
 
-<a class="dropdown-item" href="http://localhost/freelance/requests/post_request.php">
+<a class="dropdown-item" href="post_request.php">
 
 Post A Request
 
 </a>
 
-<a class="dropdown-item" href="http://localhost/freelance/requests/manage_requests.php">
+<a class="dropdown-item" href="manage_requests.php">
 
 Manage Requests
 
@@ -386,13 +386,13 @@ Contacts
 
 <div id="contacts" class="dropdown-submenu collapse"><!--- contacts dropdown-submenu collapse Starts -->
 
-<a href="http://localhost/freelance/manage_contacts.php?my_buyers" class="dropdown-item">
+<a href="manage_contacts.php?my_buyers" class="dropdown-item">
 
 My Buyers
 
 </a>
 
-<a href="http://localhost/freelance/manage_contacts.php?my_sellers" class="dropdown-item">
+<a href="manage_contacts.php?my_sellers" class="dropdown-item">
 
 My Sellers
 
@@ -400,19 +400,19 @@ My Sellers
 
 </div><!--- contacts dropdown-submenu collapse Ends -->
 
-<a class="dropdown-item" href="http://localhost/freelance/my_referrals.php">
+<a class="dropdown-item" href="my_referrals.php">
 
 My Referrals
 
 </a>
 
-<a class="dropdown-item" href="http://localhost/freelance/conversations/inbox.php">
+<a class="dropdown-item" href="conversations/inbox.php">
 
 Inbox Conversations
 
 </a>
 
-<a class="dropdown-item" href="http://localhost/freelance/user.php">
+<a class="dropdown-item" href="user.php">
 
 My Profile
 
@@ -427,14 +427,14 @@ Settings
 
 <div id="settings" class="dropdown-submenu collapse"><!-- settings dropdown-submenu collapse Starts -->
 
-<a class="dropdown-item" href="http://localhost/freelance/settings.php?profile_settings">
+<a class="dropdown-item" href="settings.php?profile_settings">
 
 Profile Settings
 
 </a>
 
 
-<a class="dropdown-item" href="http://localhost/freelance/settings.php?account_settings">
+<a class="dropdown-item" href="settings.php?account_settings">
 
 Account Settings
 
@@ -444,7 +444,7 @@ Account Settings
 
 <div class="dropdown-divider"> </div>
 
-<a class="dropdown-item" href="http://localhost/freelance/logout.php">
+<a class="dropdown-item" href="logout.php">
 
 Logout
 
