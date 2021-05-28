@@ -21,9 +21,14 @@
                 'uid' =>$transId,
                 'email' => $email,
                 'displayName' => $fullname,
-                'userName' => $username,
+                'username' => $username,
                 'userType' => 'Buyer',
-                'verified' => 'No'
+                'verified' => 'No',
+                'country' => '',
+                'bio' => '',
+                'accountCreated' => '',
+                'avartarUrl' => '',
+                'pushNotifications' => 'true',
             )
         );
 
