@@ -278,7 +278,7 @@ By
 
 </strong>
 
-<a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<a href="user.php"> fixmywebsite </a>
 
 </span>
 
@@ -532,7 +532,7 @@ By
 
 </strong>
 
-<a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<a href="user.php"> fixmywebsite </a>
 </span>
 
 
@@ -615,91 +615,7 @@ By
 
 </strong>
 
-<a href="http://localhost/freelance/user.php"> fixmywebsite </a>
-
-</span>
-
-
-<span class="float-right mt-2"><!-- float-right mt-2 Starts -->
-
-<img class="rating" src="images/user_rate_full.png">
-
-<img class="rating" src="images/user_rate_full.png">
-
-<img class="rating" src="images/user_rate_full.png">
-
-<img class="rating" src="images/user_rate_full.png">
-
-<img class="rating" src="images/user_rate_blank.png">
-
-<span class="ml-1 mr-2">(4)</span>
-
-</span><!-- float-right mt-2 Ends -->
-
-<div class="clearfix mb-2"> </div>
-
-</div><!-- proposal_nav Ends -->
-
-<a href="proposals/proposal.php">
-
-<hr class="m-0 p-0">
-
-<img src="proposals/proposal_files/ytpro.png" class="resp-img">
-
-</a>
-
-<div class="text"><!-- text Starts -->
-
-<h4>
-
-<a href="proposals/proposal.php" class="video-img">
-
-I will promote your YouTube Video for 3 Days 
-
-</a>
-
-</h4>
-
-<hr>
-
-<p class="buttons clearfix"><!-- buttons clearfix Starts -->
-
-<a href="#" class="favorite mt-2 float-left" data-toggle="tooltip" title="Add To Favorites">
-
-<i class="fa fa-heart fa-lg"></i>
-
-</a>
-
-<span class="float-right"> STARTING AT <strong class="price">$50</strong> </span>
-
-</p><!-- buttons clearfix Ends -->
-
-</div><!-- text Ends -->
-
-<div class="ribbon"><!-- ribbon Starts -->
-
-<div class="theribbon"> Featured </div>
-
-<div class="ribbon-background"> </div>
-
-</div><!-- ribbon Ends -->
-
-</div><!--- proposal-div Ends --> 
-
-
-<div class="proposal-div"><!--- proposal-div Starts --> 
-
-<div class="proposal_nav"><!-- proposal_nav Starts -->
-
-<span class="float-left mt-2"> 
-
-<strong class="ml-2 mr-1">
-
-By
-
-</strong>
-
-<a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<a href="user.php"> fixmywebsite </a>
 
 </span>
 
@@ -783,7 +699,91 @@ By
 
 </strong>
 
-<a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<a href="user.php"> fixmywebsite </a>
+
+</span>
+
+
+<span class="float-right mt-2"><!-- float-right mt-2 Starts -->
+
+<img class="rating" src="images/user_rate_full.png">
+
+<img class="rating" src="images/user_rate_full.png">
+
+<img class="rating" src="images/user_rate_full.png">
+
+<img class="rating" src="images/user_rate_full.png">
+
+<img class="rating" src="images/user_rate_blank.png">
+
+<span class="ml-1 mr-2">(4)</span>
+
+</span><!-- float-right mt-2 Ends -->
+
+<div class="clearfix mb-2"> </div>
+
+</div><!-- proposal_nav Ends -->
+
+<a href="proposals/proposal.php">
+
+<hr class="m-0 p-0">
+
+<img src="proposals/proposal_files/ytpro.png" class="resp-img">
+
+</a>
+
+<div class="text"><!-- text Starts -->
+
+<h4>
+
+<a href="proposals/proposal.php" class="video-img">
+
+I will promote your YouTube Video for 3 Days 
+
+</a>
+
+</h4>
+
+<hr>
+
+<p class="buttons clearfix"><!-- buttons clearfix Starts -->
+
+<a href="#" class="favorite mt-2 float-left" data-toggle="tooltip" title="Add To Favorites">
+
+<i class="fa fa-heart fa-lg"></i>
+
+</a>
+
+<span class="float-right"> STARTING AT <strong class="price">$50</strong> </span>
+
+</p><!-- buttons clearfix Ends -->
+
+</div><!-- text Ends -->
+
+<div class="ribbon"><!-- ribbon Starts -->
+
+<div class="theribbon"> Featured </div>
+
+<div class="ribbon-background"> </div>
+
+</div><!-- ribbon Ends -->
+
+</div><!--- proposal-div Ends --> 
+
+
+<div class="proposal-div"><!--- proposal-div Starts --> 
+
+<div class="proposal_nav"><!-- proposal_nav Starts -->
+
+<span class="float-left mt-2"> 
+
+<strong class="ml-2 mr-1">
+
+By
+
+</strong>
+
+<a href="user.php"> fixmywebsite </a>
 
 </span>
 

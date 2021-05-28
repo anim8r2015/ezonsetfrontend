@@ -122,7 +122,7 @@ Sign Up
 
 <div class="modal-body"><!-- modal-body Starts -->
 
-<form id="formRegistration" action="endpoint_post.php" method="post"><!-- form Starts -->
+<form id="formRegistration" action="registration_post.php" method="post"><!-- form Starts -->
 
 <div class="form-group"><!-- form-group Starts -->
 
