@@ -11,20 +11,20 @@
 
 <ul><!-- ul Starts -->
 
-<li><a href="http://localhost/freelance/category.php?cat_id"> Graphic Designing </a></li>
+<li><a href="category.php?cat_id"> Graphic Designing </a></li>
 
-<li><a href="http://localhost/freelance/category.php?cat_id"> Digital Marketing </a></li>
+<li><a href="category.php?cat_id"> Digital Marketing </a></li>
 
-<li><a href="http://localhost/freelance/category.php?cat_id"> Video & Animation </a></li>
+<li><a href="category.php?cat_id"> Video & Animation </a></li>
 
-<li><a href="http://localhost/freelance/category.php?cat_id"> Writing & Translation </a></li>
+<li><a href="category.php?cat_id"> Writing & Translation </a></li>
 
-<li><a href="http://localhost/freelance/category.php?cat_id"> Programming & Tech </a></li>
+<li><a href="category.php?cat_id"> Programming & Tech </a></li>
 
-<li><a href="http://localhost/freelance/category.php?cat_id"> Business Management </a></li>
+<li><a href="category.php?cat_id"> Business Management </a></li>
 
-<li><a href="http://localhost/freelance/category.php?cat_id"> Online Learning & Support </a></li>
-<li><a href="http://localhost/freelance/category.php?cat_id"> Basic Errands & Onsite Support </a></li>
+<li><a href="category.php?cat_id"> Online Learning & Support </a></li>
+<li><a href="category.php?cat_id"> Basic Errands & Onsite Support </a></li>
 </ul><!-- ul Ends -->
 
 </div><!-- col-md-3 col-sm-6 Ends -->
@@ -36,9 +36,9 @@
 
 <ul><!-- ul Starts -->
 
-<li><a href="http://localhost/freelance/terms.php"> Terms & Conditions </a></li>
-<li><a href="http://localhost/freelance/terms.php"> Refund Policy </a></li>
-<li><a href="http://localhost/freelance/terms.php"> Pricing & Promotion Policy </a></li>
+<li><a href="terms.php"> Terms & Conditions </a></li>
+<li><a href="terms.php"> Refund Policy </a></li>
+<li><a href="terms.php"> Pricing & Promotion Policy </a></li>
 
 
 </ul><!-- ul Ends -->
@@ -52,7 +52,7 @@
 
 <ul><!-- ul Starts -->
 
-<li><a href="http://localhost/freelance/contact.php"> Customer Support </a></li>
+<li><a href="contact.php"> Customer Support </a></li>
 
 
 </ul><!-- ul Ends -->
@@ -157,12 +157,12 @@ EzOnset.com
 
 
 
-<script src="http://localhost/freelance/js/jquery.sticky.js"></script>
+<script src="js/jquery.sticky.js"></script>
 
-<script src="http://localhost/freelance/js/popper.min.js"></script>
+<script src="js/popper.min.js"></script>
 
-<script src="http://localhost/freelance/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
-<script src="http://localhost/freelance/js/owl.carousel.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 
-<script src="http://localhost/freelance/js/custom.js"></script>
+<script src="js/custom.js"></script>

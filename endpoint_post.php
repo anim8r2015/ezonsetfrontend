@@ -22,17 +22,30 @@ if(isset($username) && isset($password)){
     if ($result->success == 1 && count($result->data) > 0){
         
         $_SESSION["username"] = $username;
-        $_SESSION["password"] = $password;
+       
 
-        header('Location:home.php');
         for ($x = 0; $x < count($result->data); $x++) {
             //isset is used to check for nulls
            
-            /*
-            if (isset($result->data[$x]->service_title)) {
-                echo "service_title: " . $result->data[$x]->service_title . "<br>";
-            }*/
+            if (isset($result->data[$x]->email)) {
+                //echo "service_title: " . $result->data[$x]->service_title . "<br>";
+                $_SESSION["email"] = $result->data[$x]->email;
+            }
+            if (isset($result->data[$x]->userType)) {
+                $_SESSION["userType"] = $result->data[$x]->userType;
+            }
+            if (isset($result->data[$x]->displayName)) {
+                $_SESSION["displayName"]  = $result->data[$x]->displayName;  
+                
+                $_SESSION["username"] =  $result->data[$x]->displayName;  
+            }
+
+            if (isset($result->data[$x]->verified)) {
+                $_SESSION["verified"]  = $result->data[$x]->verified;   
+            }
+
         }
+        header('Location:home.php');
     } else {
         header('Location:index.php');
     }

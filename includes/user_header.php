@@ -472,47 +472,59 @@ Logout
 <?php include("user_nav.php"); ?>
 
 
+<?php 
+    if (isset($userVerified)) {
+        if($userVerified=='No'){
+            echo "<div class=\"alert alert-warning clearfix\">";//<!-- alert alert-warning clearfix Starts -->
 
+            echo "<div class=\"row\">";//<!-- row Starts -->
 
-<div class="alert alert-warning clearfix"><!-- alert alert-warning clearfix Starts -->
+            echo "<div class=\"col-md-1 text-center\">";//<!-- col-md-1 text-center Starts -->
 
-<div class="row"><!-- row Starts -->
+            echo "<i class=\"fa fa-exclamation-circle fa-5x d-inline-block\"></i>";
 
-<div class="col-md-1 text-center"><!-- col-md-1 text-center Starts -->
+            echo "</div>"; //<!-- col-md-1 text-center Ends -->
 
-<i class="fa fa-exclamation-circle fa-5x d-inline-block"></i>
+            echo "<div class=\"col-md-8 text-lg-left text-sm-center\">";//<!-- col-md-8 text-lg-left text-sm-center Starts -->
 
-</div><!-- col-md-1 text-center Ends -->
+            echo "<p>";
+            echo "<strong>";
+            echo "You need to activate your account to visit this website.";
+            echo "</strong>";
+            echo "</p>";
 
-<div class="col-md-8 text-lg-left text-sm-center"><!-- col-md-8 text-lg-left text-sm-center Starts -->
+            echo "<p>";
 
-<p>
-<strong>
-You need to activate your account to visit this website.
-</strong>
-</p>
+            if(isset($userEmail)){
+                echo $userEmail;
+            } else {
+                echo "Please update your email to activate this account.";
+            }
 
-<p>
- Confirm email sent to ghlama29@gmail.com
-</p>
+            echo "</p>";
 
-<p>
-Need Help! <a href="contact.php"> Contact Support </a>
-</p>
+            echo "<p>";
+            echo "Need Help! <a href=\"contact.php\"> Contact Support </a>";
+            echo "</p>";
 
-</div><!-- col-md-8 text-lg-left text-sm-center Ends -->
+            echo "</div>";//<!-- col-md-8 text-lg-left text-sm-center Ends -->
 
-<div class="col-md-3"><!-- col-md-3 Starts -->
+            echo "<div class=\"col-md-3\">";//<!-- col-md-3 Starts -->
 
-<button id="send-email" class="btn btn-warning float-right">
- Send Email
-</button>
+            echo "<button id=\"send-email\" class=\"btn btn-warning float-right\">";
+            echo "Send Email";
+            echo "</button>";
 
-</div><!-- col-md-3 Ends -->
+            echo "</div>";//<!-- col-md-3 Ends -->
 
-</div><!-- row Ends -->
+            echo "</div>";//<!-- row Ends -->
 
-</div><!-- alert alert-warning clearfix Ends -->
+            echo "</div>";//<!-- alert alert-warning clearfix Ends -->
+        }
+    } else {
+        echo "Please update your email to activate this account.";
+    }
+?>
 
 
 
