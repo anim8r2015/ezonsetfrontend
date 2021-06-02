@@ -9,9 +9,9 @@
 
 </button>
 
-<a class="navbar-brand" href="http://localhost/freelance/index.php"> EzOnset </a>
+<a class="navbar-brand" href="index.php"> EzOnset </a>
 
-<a class="navbar-toggler" href="http://localhost/freelance/mobile_categories.php">
+<a class="navbar-toggler" href="mobile_categories.php">
 
 <i class="fa fa-th-large"></i>
 

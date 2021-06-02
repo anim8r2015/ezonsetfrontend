@@ -320,7 +320,7 @@ Buyer Requests
 
 </a>
 
-<a class="dropdown-item" href="revenue.php">
+<a class="dropdown-item" href="../revenue.php">
 
 Revenues
 

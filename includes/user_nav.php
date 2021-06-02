@@ -7,7 +7,7 @@
 
 <li><!--- main li Starts --->
 
-<a href="http://localhost/freelance/dashboard.php">
+<a href="dashboard.php">
 
 Dashboard
 
@@ -31,7 +31,7 @@ Selling <i class="fa fa-fw fa-caret-down"></i>
 
 <li>
 
-<a href="http://localhost/freelance/selling_orders.php">
+<a href="selling_orders.php">
 
 Orders
 
@@ -42,7 +42,7 @@ Orders
 
 <li>
 
-<a href="http://localhost/freelance/proposals/view_proposals.php">
+<a href="proposals/view_proposals.php">
 
 View Proposals
 
@@ -53,7 +53,7 @@ View Proposals
 
 <li>
 
-<a href="http://localhost/freelance/requests/buyer_requests.php">
+<a href="requests/buyer_requests.php">
 
 Buyer Requests
 
@@ -64,7 +64,7 @@ Buyer Requests
 
 <li>
 
-<a href="http://localhost/freelance/revenue.php">
+<a href="revenue.php">
 
 Revenues
 
@@ -95,7 +95,7 @@ Buying <i class="fa fa-fw fa-caret-down"></i>
 
 <li>
 
-<a href="http://localhost/freelance/buying_orders.php">
+<a href="buying_orders.php">
 
 Orders
 
@@ -106,7 +106,7 @@ Orders
 
 <li>
 
-<a href="http://localhost/freelance/purchases.php">
+<a href="purchases.php">
 
 Purchases
 
@@ -117,7 +117,7 @@ Purchases
 
 <li>
 
-<a href="http://localhost/freelance/favourites.php">
+<a href="favourites.php">
 
 Favourites
 
@@ -149,7 +149,7 @@ Requests <i class="fa fa-fw fa-caret-down"></i>
 
 <li>
 
-<a href="http://localhost/freelance/requests/manage_requests.php">
+<a href="requests/manage_requests.php">
 
 Manage Requests
 
@@ -160,7 +160,7 @@ Manage Requests
 
 <li>
 
-<a href="http://localhost/freelance/requests/post_request.php">
+<a href="requests/post_request.php">
 
 Post A Request
 
@@ -193,7 +193,7 @@ Contacts <i class="fa fa-fw fa-caret-down"></i>
 
 <li>
 
-<a href="http://localhost/freelance/manage_contacts.php?my_buyers">
+<a href="manage_contacts.php?my_buyers">
 
 My Buyers
 
@@ -204,7 +204,7 @@ My Buyers
 
 <li>
 
-<a href="http://localhost/freelance/manage_contacts.php?my_sellers">
+<a href="manage_contacts.php?my_sellers">
 
 My Sellers
 
@@ -223,7 +223,7 @@ My Sellers
 
 <li><!--- main li Starts --->
 
-<a href="http://localhost/freelance/my_referrals.php">
+<a href="my_referrals.php">
 
 My Referrals
 
@@ -234,7 +234,7 @@ My Referrals
 
 <li><!--- main li Starts --->
 
-<a href="http://localhost/freelance/conversations/inbox.php">
+<a href="conversations/inbox.php">
 
 Inbox
 
@@ -245,7 +245,7 @@ Inbox
 
 <li><!--- main li Starts --->
 
-<a href="http://localhost/freelance/user.php">
+<a href="user.php">
 
 My Profile
 
@@ -256,7 +256,7 @@ My Profile
 
 <li><!--- main li Starts --->
 
-<a href="http://localhost/freelance/settings.php">
+<a href="settings.php">
 
 Settings
 

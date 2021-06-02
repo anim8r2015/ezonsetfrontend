@@ -8,7 +8,7 @@
 
 <li><!-- li Starts -->
 
-<a href="http://localhost/freelance/category.php?cat_id">
+<a href="category.php?cat_id">
 
 Graphic Designing
 
@@ -18,23 +18,23 @@ Graphic Designing
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Logo Design </a> </li>
+<li> <a href="category.php?cat_child_id"> Logo Design </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Social Media Posts Design </a> </li>
+<li> <a href="category.php?cat_child_id"> Social Media Posts Design </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Web Banner Design </a> </li>
+<li> <a href="category.php?cat_child_id"> Web Banner Design </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Business Card & Stationery </a> </li>
+<li> <a href="category.php?cat_child_id"> Business Card & Stationery </a> </li>
 </ul>
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Branding </a> </li>
+<li> <a href="category.php?cat_child_id"> Branding </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Invitation Design </a> </li>
+<li> <a href="category.php?cat_child_id"> Invitation Design </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Packaging Design </a> </li>
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Others </a> </li>
+<li> <a href="category.php?cat_child_id"> Packaging Design </a> </li>
+<li> <a href="category.php?cat_child_id"> Others </a> </li>
 
 </ul>
 
@@ -45,7 +45,7 @@ Graphic Designing
 
 <li><!-- li Starts -->
 
-<a href="http://localhost/freelance/category.php?cat_id">
+<a href="category.php?cat_id">
 
 Digital Marketing
 
@@ -55,13 +55,13 @@ Digital Marketing
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Socail Media Marketing </a> </li>
+<li> <a href="category.php?cat_child_id"> Socail Media Marketing </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Search Engine Optimization </a> </li>
+<li> <a href="category.php?cat_child_id"> Search Engine Optimization </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Social Media Ads </a> </li>
+<li> <a href="category.php?cat_child_id"> Social Media Ads </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Email Marketing </a> </li>
+<li> <a href="category.php?cat_child_id"> Email Marketing </a> </li>
 
 
 
@@ -70,12 +70,12 @@ Digital Marketing
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Marketing Strategy </a> </li>
+<li> <a href="category.php?cat_child_id"> Marketing Strategy </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Ecommerce Marketing </a> </li>
+<li> <a href="category.php?cat_child_id"> Ecommerce Marketing </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Affiliate Marketing </a> </li>
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Others </a> </li>
+<li> <a href="category.php?cat_child_id"> Affiliate Marketing </a> </li>
+<li> <a href="category.php?cat_child_id"> Others </a> </li>
 
 </ul>
 
@@ -87,7 +87,7 @@ Digital Marketing
 
 <li><!-- li Starts -->
 
-<a href="http://localhost/freelance/category.php?cat_id">
+<a href="category.php?cat_id">
 
 Video & Animation
 
@@ -97,26 +97,26 @@ Video & Animation
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Whiteboard & Animated Explainers </a> </li>
+<li> <a href="category.php?cat_child_id"> Whiteboard & Animated Explainers </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Video Editing </a> </li>
+<li> <a href="category.php?cat_child_id"> Video Editing </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Video Ads </a> </li>
+<li> <a href="category.php?cat_child_id"> Video Ads </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Logo Animation </a> </li>
+<li> <a href="category.php?cat_child_id"> Logo Animation </a> </li>
 
 
 </ul>
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Animated GIFs </a> </li>
+<li> <a href="category.php?cat_child_id"> Animated GIFs </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Intros & Outros </a> </li>
+<li> <a href="category.php?cat_child_id"> Intros & Outros </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Trailers </a> </li>
+<li> <a href="category.php?cat_child_id"> Trailers </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Others </a> </li>
+<li> <a href="category.php?cat_child_id"> Others </a> </li>
 
 
 
@@ -130,7 +130,7 @@ Video & Animation
 
 <li><!-- li Starts -->
 
-<a href="http://localhost/freelance/category.php?cat_id">
+<a href="category.php?cat_id">
 
 Writing & Translation
 
@@ -140,13 +140,13 @@ Writing & Translation
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Articles & Blog Posts </a> </li>
+<li> <a href="category.php?cat_child_id"> Articles & Blog Posts </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Translation </a> </li>
+<li> <a href="category.php?cat_child_id"> Translation </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Proof Reading & Editing </a> </li>
+<li> <a href="category.php?cat_child_id"> Proof Reading & Editing </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Website Content </a> </li>
+<li> <a href="category.php?cat_child_id"> Website Content </a> </li>
 
 
 
@@ -154,13 +154,13 @@ Writing & Translation
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Book Writing </a> </li>
+<li> <a href="category.php?cat_child_id"> Book Writing </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Resume & Cover Letters </a> </li>
+<li> <a href="category.php?cat_child_id"> Resume & Cover Letters </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Product Descriptions </a> </li>
+<li> <a href="category.php?cat_child_id"> Product Descriptions </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Others </a> </li>
+<li> <a href="category.php?cat_child_id"> Others </a> </li>
 
 
 </ul>
@@ -173,7 +173,7 @@ Writing & Translation
 
 <li><!-- li Starts -->
 
-<a href="http://localhost/freelance/category.php?cat_id">
+<a href="category.php?cat_id">
 
 Programming & Tech
 
@@ -183,13 +183,13 @@ Programming & Tech
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Web Builders & CMS </a> </li>
+<li> <a href="category.php?cat_child_id"> Web Builders & CMS </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> E-Commerce Development </a> </li>
+<li> <a href="category.php?cat_child_id"> E-Commerce Development </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Mobile Apps </a> </li>
+<li> <a href="category.php?cat_child_id"> Mobile Apps </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Game Development </a> </li>
+<li> <a href="category.php?cat_child_id"> Game Development </a> </li>
 
 
 
@@ -197,13 +197,13 @@ Programming & Tech
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Web Programming </a> </li>
+<li> <a href="category.php?cat_child_id"> Web Programming </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> User Testing </a> </li>
+<li> <a href="category.php?cat_child_id"> User Testing </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Chatbots </a> </li>
+<li> <a href="category.php?cat_child_id"> Chatbots </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Others </a> </li>
+<li> <a href="category.php?cat_child_id"> Others </a> </li>
 
 
 
@@ -217,7 +217,7 @@ Programming & Tech
 
 <li><!-- li Starts -->
 
-<a href="http://localhost/freelance/category.php?cat_id">
+<a href="category.php?cat_id">
 
 Business Management
 
@@ -227,13 +227,13 @@ Business Management
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> E-Commerce Management </a> </li>
+<li> <a href="category.php?cat_child_id"> E-Commerce Management </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Virtual Assistant </a> </li>
+<li> <a href="category.php?cat_child_id"> Virtual Assistant </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Data Entry </a> </li>
+<li> <a href="category.php?cat_child_id"> Data Entry </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Project Management </a> </li>
+<li> <a href="category.php?cat_child_id"> Project Management </a> </li>
 
 
 
@@ -241,13 +241,13 @@ Business Management
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Market Research </a> </li>
+<li> <a href="category.php?cat_child_id"> Market Research </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Presentations </a> </li>
+<li> <a href="category.php?cat_child_id"> Presentations </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Business Plans </a> </li>
+<li> <a href="category.php?cat_child_id"> Business Plans </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Others </a> </li>
+<li> <a href="category.php?cat_child_id"> Others </a> </li>
 
 
 
@@ -260,7 +260,7 @@ Business Management
 
 <li><!-- li Starts -->
 
-<a href="http://localhost/freelance/category.php?cat_id">
+<a href="category.php?cat_id">
 
 Online Learning & Support
 
@@ -270,13 +270,13 @@ Online Learning & Support
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Online tutoring </a> </li>
+<li> <a href="category.php?cat_child_id"> Online tutoring </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Fitness Lessons & Life Coaching </a> </li>
+<li> <a href="category.php?cat_child_id"> Fitness Lessons & Life Coaching </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Cooking & Craft Lessons </a> </li>
+<li> <a href="category.php?cat_child_id"> Cooking & Craft Lessons </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Games Tips & Tricks </a> </li>
+<li> <a href="category.php?cat_child_id"> Games Tips & Tricks </a> </li>
 
 
 
@@ -284,13 +284,13 @@ Online Learning & Support
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Business & Career Consulting </a> </li>
+<li> <a href="category.php?cat_child_id"> Business & Career Consulting </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Financial Consulting & Advise </a> </li>
+<li> <a href="category.php?cat_child_id"> Financial Consulting & Advise </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Psychological Counselling </a> </li>
+<li> <a href="category.php?cat_child_id"> Psychological Counselling </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Others </a> </li>
+<li> <a href="category.php?cat_child_id"> Others </a> </li>
 
 
 
@@ -302,7 +302,7 @@ Online Learning & Support
 
 <li><!-- li Starts -->
 
-<a href="http://localhost/freelance/category.php?cat_id">
+<a href="category.php?cat_id">
 
 Basic Errands & Onsite Support
 
@@ -312,28 +312,28 @@ Basic Errands & Onsite Support
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Try & Review </a> </li>
+<li> <a href="category.php?cat_child_id"> Try & Review </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Distributing Marketing Materials </a> </li>
+<li> <a href="category.php?cat_child_id"> Distributing Marketing Materials </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Logistics </a> </li>
+<li> <a href="category.php?cat_child_id"> Logistics </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Crosscheck Products </a> </li>
+<li> <a href="category.php?cat_child_id"> Crosscheck Products </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Event Photography & Videography </a> </li>
+<li> <a href="category.php?cat_child_id"> Event Photography & Videography </a> </li>
 
 
 </ul>
 
 <ul>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Product Photography & Videography </a> </li>
+<li> <a href="category.php?cat_child_id"> Product Photography & Videography </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Purchasing & Delivering </a> </li>
+<li> <a href="category.php?cat_child_id"> Purchasing & Delivering </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Tickets & Invitation Card Distribution </a> </li>
+<li> <a href="category.php?cat_child_id"> Tickets & Invitation Card Distribution </a> </li>
 
-<li> <a href="http://localhost/freelance/category.php?cat_child_id"> Others </a> </li>
+<li> <a href="category.php?cat_child_id"> Others </a> </li>
 
 
 
