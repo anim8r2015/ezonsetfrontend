@@ -179,7 +179,7 @@ Available for Withdrawal: <span class="font-weight-bold"> $198 </span>
 
 For Withdraw Revenues To Your PayPal Account Please Add Your PayPal Account Email In
 
-<a href="http://localhost/freelance/settings.php?account_settings">
+<a href="settings.php?account_settings">
 Setting Account Actions Tab
 </a>
 
