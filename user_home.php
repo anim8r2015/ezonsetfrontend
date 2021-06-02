@@ -168,7 +168,7 @@ Clients browse your profile when deciding who to work with on a project, <br>So 
 
 <span class="float-left mt-2"><!--- float-left mt-2 Starts --->
 
-<strong class="ml-2 mr-1"> By </strong> <a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<strong class="ml-2 mr-1"> By </strong> <a href="user.php"> fixmywebsite </a>
 
 </span><!--- float-left mt-2 Ends --->
 
@@ -430,7 +430,7 @@ I Will Do Viral Youtube Seo Social Media Promotion
 
 <span class="float-left mt-2"><!--- float-left mt-2 Starts --->
 
-<strong class="ml-2 mr-1"> By </strong> <a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<strong class="ml-2 mr-1"> By </strong> <a href="user.php"> fixmywebsite </a>
 
 </span><!--- float-left mt-2 Ends --->
 
@@ -510,7 +510,7 @@ I Will Do Viral Youtube Seo Social Media Promotion
 
 <span class="float-left mt-2"><!--- float-left mt-2 Starts --->
 
-<strong class="ml-2 mr-1"> By </strong> <a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<strong class="ml-2 mr-1"> By </strong> <a href="user.php"> fixmywebsite </a>
 
 </span><!--- float-left mt-2 Ends --->
 
@@ -795,7 +795,7 @@ I will promote your YouTube Video On Different Platforms using multiple strategi
 
 <span class="float-left">
 
-<strong class="ml-2 mr-1"> By </strong> <a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<strong class="ml-2 mr-1"> By </strong> <a href="user.php"> fixmywebsite </a>
 
 </span>
 
@@ -858,7 +858,7 @@ I will promote your YouTube Video On Different Platforms using multiple strategi
 
 <span class="float-left">
 
-<strong class="ml-2 mr-1"> By </strong> <a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<strong class="ml-2 mr-1"> By </strong> <a href="user.php"> fixmywebsite </a>
 
 </span>
 
@@ -922,7 +922,7 @@ I will promote your YouTube Video On Different Platforms using multiple strategi
 
 <span class="float-left">
 
-<strong class="ml-2 mr-1"> By </strong> <a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<strong class="ml-2 mr-1"> By </strong> <a href="user.php"> fixmywebsite </a>
 
 </span>
 
@@ -1050,7 +1050,7 @@ I will promote your YouTube Video On Different Platforms using multiple strategi
 
 <span class="float-left">
 
-<strong class="ml-2 mr-1"> By </strong> <a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<strong class="ml-2 mr-1"> By </strong> <a href="user.php"> fixmywebsite </a>
 
 </span>
 
@@ -1113,7 +1113,7 @@ I will promote your YouTube Video On Different Platforms using multiple strategi
 
 <span class="float-left">
 
-<strong class="ml-2 mr-1"> By </strong> <a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<strong class="ml-2 mr-1"> By </strong> <a href="user.php"> fixmywebsite </a>
 
 </span>
 
@@ -1177,7 +1177,7 @@ I will promote your YouTube Video On Different Platforms using multiple strategi
 
 <span class="float-left">
 
-<strong class="ml-2 mr-1"> By </strong> <a href="http://localhost/freelance/user.php"> fixmywebsite </a>
+<strong class="ml-2 mr-1"> By </strong> <a href="user.php"> fixmywebsite </a>
 
 </span>
 

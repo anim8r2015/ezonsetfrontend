@@ -27,8 +27,10 @@
 <body>
 
 <?php 
-require_once "../global_vars.php";
-include("../includes/user_header.php"); 
+    //require  "../global_vars.php";
+    define('__ROOT__', dirname(dirname(__FILE__)));
+    require_once(__ROOT__.'/global_vars.php'); 
+    include("../includes/user_header.php"); 
 ?>
 
 <div class="container-fluid mt-5 mb-5"><!-- container-fluid mt-5 mb-5 Starts -->
